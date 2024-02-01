@@ -1,16 +1,21 @@
 The report class contains the main method as well as two helper methods,
 getVar() and printTable(). in-file comments explain each function.
 
-Operation:
-  Begin by entering the names of each variable for future use in your operations.
+Usage:
+  Begin by entering the names of each variable for future use in your logical operations.
 This is where the operation cycle will begin. It will ask you to enter the first variable to operate on,
 then the second. If you are going to use a negate, enter "NA" for the second variable.
-Previous operations can be referenced for operation by typing "op"
-then the number immediately after the operation you are referencing.
-Then enter the operator you are using. 
+Previous operations can be referenced for operation by typing "op" then the number immediately after
+the operation you are referencing. (op1, op2, etc.) Then enter the operator you are using. 
 
 List of operators: 
-  Negate, "-". Or, "v". And "^". Xor, "xo". Implication, "->". Biconditional, "<->". Equals, "=".
+  Negate, "-".
+  Or, "v".
+  And "^".
+  Xor, "xo".
+  Implication, "->".
+  Biconditional, "<->".
+  Equals, "=".
   
   At this point the table will print with all previous operations
 as well as the new one. It will ask whether or not your table is completed.
